@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "tailwindcss";
+@import "@fontsource/inter";
+
 html,
 body {
   @apply bg-gray-950 text-white;
+  font-family: "Inter", sans-serif;
 }
